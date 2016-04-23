@@ -24,7 +24,7 @@ $aLang = array(
 
 'charset'                                       => 'UTF-8',
 'HEADER_META_MAIN_TITLE'                        => 'OXID eShop installation wizard',
-'HEADER_TEXT_SETUP_NOT_RUNS_AUTOMATICLY'        => 'If setup does not continue in a few seconds, please click ',
+'HEADER_TEXT_SETUP_NOT_RUNS_AUTOMATICLY'        => 'If setup does not start in a few seconds, please click ',
 'FOOTER_OXID_ESALES'                            => '&copy; OXID eSales AG 2003 - '.@date("Y"),
 
 'TAB_0_TITLE'                                   => 'System Requirements',
@@ -48,10 +48,10 @@ $aLang = array(
 'ERROR_NOT_AVAILABLE'                           => 'ERROR: %s not found!',
 'ERROR_NOT_WRITABLE'                            => 'ERROR: %s not writeable!',
 'ERROR_DB_CONNECT'                              => 'ERROR: No database connection possible!',
-'ERROR_OPENING_SQL_FILE'                        => 'ERROR: Can not open SQL file %s!',
+'ERROR_OPENING_SQL_FILE'                        => 'ERROR: Cannot open SQL file %s!',
 'ERROR_FILL_ALL_FIELDS'                         => 'ERROR: Please fill in all needed fields!',
 'ERROR_COULD_NOT_CREATE_DB'                     => 'ERROR: Database not available and also cannot be created!',
-'ERROR_DB_ALREADY_EXISTS'                       => 'ERROR: Seems there is already OXID eShop installed in database %s. Please delete it prior continuing!',
+'ERROR_DB_ALREADY_EXISTS'                       => 'ERROR: Seems that OXID eShop already installed in database %s. Please delete it prior continuing!',
 'ERROR_BAD_SQL'                                 => 'ERROR: Issue while inserting this SQL statements: ',
 'ERROR_BAD_DEMODATA'                            => 'ERROR: Issue while inserting this SQL statements: ',
 'ERROR_CONFIG_FILE_IS_NOT_WRITABLE'             => 'ERROR: %s/config.inc.php'.' not writeable!',
@@ -63,7 +63,7 @@ $aLang = array(
 'ERROR_PASSWORD_TOO_SHORT'                      => 'Password is too short!',
 'ERROR_PASSWORDS_DO_NOT_MATCH'                  => 'Passwords do not match!',
 'ERROR_USER_NAME_DOES_NOT_MATCH_PATTERN'        => 'Please enter a valid e-mail address!',
-'ERROR_MYSQL_VERSION_DOES_NOT_FIT_REQUIREMENTS' => 'MySQL version does not fit system requiremens',
+'ERROR_MYSQL_VERSION_DOES_NOT_FIT_REQUIREMENTS' => 'MySQL version does not fit system requirements',
 
 'ERROR_VIEWS_CANT_CREATE'                       => 'ERROR: Can\'t create views. Please check your database user privileges.',
 'ERROR_VIEWS_CANT_SELECT'                       => 'ERROR: Can\'t select from views. Please check your database user privileges.',
@@ -116,7 +116,7 @@ $aLang = array(
 'STEP_1_TITLE'                                  => 'Welcome',
 'STEP_1_DESC'                                   => 'Welcome to installation wizard of OXID eShop',
 'STEP_1_TEXT'                                   => 'Please read carefully the following instructions to guarantee a smooth installation.
-                                                    Wishes for best success in using your OXID eShop by',
+                                                    Best wishes for success in using your OXID eShop by',
 'STEP_1_ADDRESS'                                => 'OXID eSales AG<br>
                                                     Bertoldstr. 48<br>
                                                     79098 Freiburg<br>
@@ -131,7 +131,7 @@ $aLang = array(
 'BUTTON_LICENCE'                                => 'Continue',
 
 'STEP_3_TITLE'                                  => 'Database',
-'STEP_3_DESC'                                   => 'Database is going to be created and needed tables are written. Please provide some information:',
+'STEP_3_DESC'                                   => 'Database is going to be created and needed tables will be written. Please provide some information:',
 'STEP_3_DB_HOSTNAME'                            => 'Database hostname or IP',
 'STEP_3_DB_USER_NAME'                           => 'Database username',
 'STEP_3_DB_PASSWORD'                            => 'Database password',
@@ -153,12 +153,12 @@ $aLang = array(
 'STEP_3_1_DB_CREATE_IS_OK'                      => 'Database %s successfully created ...',
 'STEP_3_1_CREATING_TABLES'                      => 'Creating tables, applying data ...',
 
-'STEP_3_2_TITLE'                                => 'Database - tables are beeing created ...',
+'STEP_3_2_TITLE'                                => 'Database - tables are being created ...',
 'STEP_3_2_CONTINUE_INSTALL_OVER_EXISTING_DB'    => 'If you want to overwrite all existing data and install anyway click ',
 'STEP_3_2_CREATING_DATA'                        => 'Database successfully created. Please wait ...',
 
 'STEP_4_TITLE'                                  => 'Setting up OXID eShop directories and URL',
-'STEP_4_DESC'                                   => 'Please provide neccesary data for running OXID eShop:',
+'STEP_4_DESC'                                   => 'Please provide necessary data for running OXID eShop:',
 'STEP_4_SHOP_URL'                               => 'Shop URL',
 'STEP_4_SHOP_DIR'                               => 'Directory for OXID eShop',
 'STEP_4_SHOP_TMP_DIR'                           => 'Directory for temporary data',
@@ -188,22 +188,22 @@ $aLang = array(
 'STEP_6_TO_SHOP_ADMIN'                          => 'To admin interface',
 
 'ATTENTION'                                     => 'Attention, important',
-'SETUP_DIR_DELETE_NOTICE'                       => 'Due to security reasons remove setup directory if not yet done during installation.',
-'SETUP_CONFIG_PERMISSIONS'                      => 'Due to security reasons put your config.inc.php file to read-only mode!',
+'SETUP_DIR_DELETE_NOTICE'                       => 'For security reasons remove setup directory if not yet done during installation.',
+'SETUP_CONFIG_PERMISSIONS'                      => 'For security reasons put your config.inc.php file to read-only mode!',
 
 'SELECT_SETUP_LANG'                             => 'Installation language',
 'SELECT_SHOP_LOCATION'                          => 'Your market',
 'SELECT_PLEASE_CHOOSE'                          => 'Please choose',
-'SELECT_SHOP_LOCATION_HINT'                     => 'Please choose the market to which shop is focused. According to it, additional eCommerce Services will be loaded from OXID server, if you allow that.',
-'SELECT_DELIVERY_COUNTRY'                       => 'Main delivery country',
-'SELECT_DELIVERY_COUNTRY_HINT'                  => 'If needed, activate easily more delivery countries in admin.',
+'SELECT_SHOP_LOCATION_HINT'                     => 'Please choose the market segment your shop will trade in. Accordingly, additional eCommerce Services, if available will be loaded from the OXID server, if you allow enabled this feature.',
+'SELECT_DELIVERY_COUNTRY'                       => 'Main country for deliveries',
+'SELECT_DELIVERY_COUNTRY_HINT'                  => 'If required, additional countries you will deliver to can be added in admin.',
 'SELECT_SHOP_LANG'                              => 'Shop language',
-'SELECT_SHOP_LANG_HINT'                         => 'If needed, activate easily more languages in admin.',
+'SELECT_SHOP_LANG_HINT'                         => 'If required, additional languages can be added in admin.',
 'SELECT_SETUP_LANG_SUBMIT'                      => 'Select',
 'USE_DYNAMIC_PAGES'                             => 'Enable connection with the OXID servers. You find more information in our ',
 'PRIVACY_POLICY'                                => 'privacy statements',
 
-'LOAD_DYN_CONTENT_NOTICE'                       => '<p>If checkbox is set, you will see an additional menu in the admin area of your OXID eShop.</p><p>In that menu you get further information about eCommerce services like Google product search.</p> <p>You can change these settings at any time.</p>',
+'LOAD_DYN_CONTENT_NOTICE'                       => '<p>If checkbox is enabled, you will see an additional menu in the admin area of your OXID eShop.</p><p>In that menu you get further information about eCommerce services like Google product search.</p> <p>You can change these settings at any time.</p>',
 'ERROR_SETUP_CANCELLED'                         => 'Setup has been cancelled because you didn\'t accept the license conditions.',
 'BUTTON_START_INSTALL'                          => 'Restart setup',
 );
